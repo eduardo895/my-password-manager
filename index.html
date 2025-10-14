@@ -7,6 +7,17 @@
 <body>
   <h1>My Password Manager</h1>
   <button id="openVault">Abrir Vault</button>
+  <hr />
+
+  <h2>Nova Entrada</h2>
+  <form id="entryForm">
+    <input type="text" id="title" placeholder="Título (ex: Gmail)" required /><br />
+    <input type="text" id="username" placeholder="Username" required /><br />
+    <input type="password" id="password" placeholder="Password" required /><br />
+    <input type="text" id="url" placeholder="URL (opcional)" /><br />
+    <textarea id="notes" placeholder="Notas (opcional)"></textarea><br />
+    <button type="submit">Adicionar Entrada</button>
+  </form>
 
   <script src="renderer.js"></script>
 </body>
