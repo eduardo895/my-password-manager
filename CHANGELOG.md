@@ -18,3 +18,10 @@ e este projeto segue [SemVer](https://semver.org/lang/pt-BR/).
 - Módulo de criptografia com AES-256 e PBKDF2
 - Módulo de leitura e gravação do vault encriptado
 - Ligação da interface ao cofre encriptado
+
+## [0.2.0] - 14-10-2025
+
+### Adicionado
+- Formulário HTML para adicionar entradas ao cofre
+- Lógica para guardar entradas no ficheiro encriptado
+
