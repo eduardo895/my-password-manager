@@ -48,3 +48,17 @@ e este projeto segue [SemVer](https://semver.org/lang/pt-BR/).
 - Corrige erro de execução no Windows após build com GitHub Actions
 - Redireciona caminho do vault para pasta do utilizador (`os.homedir()`)
 
+## [0.3.3] - 16-10-2025
+
+### Alterado
+- Chamada da função `renderVaultEntries()` após abrir o cofre e adicionar entrada
+- Interface atualiza automaticamente com as entradas guardadas
+
+### Adicionado
+- Campo de input para password mestra (substitui `prompt`)
+- Lista visual das entradas guardadas no cofre
+
+### Corrigido
+- Erro de `currentVault` undefined ao adicionar entrada
+
+
