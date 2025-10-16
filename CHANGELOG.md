@@ -25,7 +25,7 @@ e este projeto segue [SemVer](https://semver.org/lang/pt-BR/).
 - Formulário HTML para adicionar entradas ao cofre
 - Lógica para guardar entradas no ficheiro encriptado
 
-## [0.3.0] - 2025-10-16
+## [0.3.0] - 16-10-2025
 
 ### Adicionado
 - Interface funcional com formulário para adicionar entradas
@@ -34,5 +34,11 @@ e este projeto segue [SemVer](https://semver.org/lang/pt-BR/).
 
 ### Alterado
 - Refatoração da lógica de abertura do vault para reutilização global
+
+## [0.3.1] - 16-10-2025
+
+### Alterado
+- Adicionado alerta com número de entradas ao abrir o cofre
+
 
 

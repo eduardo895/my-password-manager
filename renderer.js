@@ -6,7 +6,7 @@ document.getElementById('openVault').addEventListener('click', () => {
   masterPassword = prompt('Digite a password mestra:');
   try {
     currentVault = loadVault(masterPassword);
-    alert('Cofre carregado!');
+    alert(`Vault carregado com ${currentVault.entries.length} entradas.`);
   } catch {
     currentVault = { entries: [] };
     saveVault(currentVault, masterPassword);
