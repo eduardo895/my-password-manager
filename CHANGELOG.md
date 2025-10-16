@@ -61,4 +61,12 @@ e este projeto segue [SemVer](https://semver.org/lang/pt-BR/).
 ### Corrigido
 - Erro de `currentVault` undefined ao adicionar entrada
 
+## [0.3.4] - 16-10-2025
+
+### Adicionado
+- Ficheiro `style.css` com estilo moderno
+- Ligação do CSS ao `index.html`
+- Personalização da janela Electron para visual mais limpo
+
+
 
