@@ -40,5 +40,11 @@ e este projeto segue [SemVer](https://semver.org/lang/pt-BR/).
 ### Alterado
 - Adicionado alerta com número de entradas ao abrir o cofre
 
+## [0.3.2] - 16-10-2025
 
+### Corrigido
+- Removido uso incorreto de `preload` para `renderer.js`
+- Corrigido erro de caminho em `vault.js` (ENOTDIR)
+- Corrige erro de execução no Windows após build com GitHub Actions
+- Redireciona caminho do vault para pasta do utilizador (`os.homedir()`)
 
