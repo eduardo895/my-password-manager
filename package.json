@@ -18,6 +18,7 @@
   },
   "build": {
     "appId": "com.edu.passwordmanager",
+    "publish": null,
     "productName": "MyPasswordManager",
     "directories": {
       "buildResources": "assets"
