@@ -1,16 +1,41 @@
 {
   "name": "my-password-manager",
   "version": "1.0.0",
-  "description": "��#\u0000M\u0000y\u0000 \u0000p\u0000a\u0000s\u0000s\u0000w\u0000o\u0000r\u0000d\u0000 \u0000m\u0000a\u0000n\u0000a\u0000g\u0000e\u0000r\u0000\r\u0000 \u0000",
-  "main": "index.js",
+  "description": "My password manager",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+    "start": "electron .",
+    "electron": "electron main.js",
+    "build": "electron-builder"
   },
   "keywords": [],
-  "author": "",
+  "author": "edu",
   "license": "ISC",
-  "dependencies": {
-    "electron": "^38.2.2"
+  "devDependencies": {
+    "electron": "^38.3.0",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.edu.passwordmanager",
+    "productName": "MyPasswordManager",
+    "directories": {
+      "buildResources": "assets"
+    },
+    "files": [
+      "**/*",
+      "!node_modules/*/{README.md,README,readme.md,readme}",
+      "!**/.*",
+      "!**/*.map"
+    ],
+    "win": {
+      "target": "nsis"
+    },
+    "linux": {
+      "target": "AppImage"
+    },
+    "mac": {
+      "target": "dmg"
+    }
   }
 }
